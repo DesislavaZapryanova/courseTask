@@ -1,0 +1,259 @@
+.flex-container {
+  display: flex;
+}
+
+body {
+  display: block;
+  font-family: 'Average', serif;
+  text-align: justify;
+  padding-top: 0px;
+  margin: 0px;
+  background-image: url("images/blue.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-family: 'Average', serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+h2 {
+  font-family: 'Average', serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+h3 {
+  font-family: 'Average', serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: 'Average', serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+p {
+  font-family: 'Average', serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* footer*/
+footer {
+  display: block;
+  background-color: #368ce2;
+  padding: auto;
+  width: 100%
+}
+
+.hash {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5px;
+}
+
+.align-left {
+  text-align: left;
+  float: left;
+  width:30%;
+  padding-left: 15px;
+}
+
+.align-right {
+  text-align: right;
+  float: right;
+  width:30%;
+  padding-right: 5px;
+  padding-top: 15px;
+}
+
+.more_info {
+  font-family: 'Average', serif;
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.links a:link {
+  color:black;
+  text-decoration: none;
+}
+
+.links a:visited {
+  color: black;
+}
+
+/*navigation bar */
+.navigation {
+  display: block;
+  flex-flow: row-wrap;
+  margin: auto;
+  padding: 10px;
+  background-color: #368ce2;
+  float: center;
+}
+
+.dropbtn {
+  background-color: #368ce2;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Average', serif;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.dropbtn a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.dropbtn a:visited {
+  color: white;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2080df;
+  font-family: 'Average', serif;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #2653d9; color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #2626d9;
+}
+
+/*background body form*/
+.form {
+  float: center;
+  margin: 50px;
+  padding: 50px;
+  background-color: #b3d7ff;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+/*images*/
+.block_lands {
+  display: block;
+  margin: auto;
+  width: 75%;
+  padding: 30px;
+}
+
+.block_planes {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+.card_pic {
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
+.color_mana {
+  display: block;
+  margin: auto;
+}
+
+.int_pic {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 300px;
+}
+
+.home_img {
+  display: block;
+  width: 100%;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plane_img {
+  display:  block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.fetch_lands {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.top {
+  display: block;
+  width: 60%;
+}
+
+/*interview*/
+.report {
+text-align: justify;
+font-size: 20px;
+font-style: bold;
+padding: 10px;
+font-family: 'Sriracha', cursive;
+
+}
+
+.elaine {
+text-align: justify;
+font-size: 22px;
+font-style: italic;
+color: #476b6b;
+font-family: 'Sriracha', serif;
+}
